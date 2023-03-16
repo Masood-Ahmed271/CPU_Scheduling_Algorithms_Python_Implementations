@@ -1,3 +1,11 @@
+'''
+Description: 
+    This is the main file for the CPU scheduling algorithms. It creates a set of processes and then calls the CPU scheduler to run the algorithms on them.
+Author: 
+    Masood Ahmed
+
+'''
+
 import cpu_scheduling_algorithms as scheduling_algorithms
 
 

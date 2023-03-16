@@ -1,9 +1,16 @@
 
 '''
-  Course: CISC 324 - Operating Systems
-  Lab 3: CPU scheduling algorithms
-  Name: Masood Ahmed
-  Student Number: 20379714
+Description: 
+    This is the file that contains the CPU scheduler class and the Process class.
+    4 CPU scheduling algorithms are implemented in this file:
+        1. First Come First Served (FCFS)
+        2. Shortest Job First (SJF)
+        3. Round Robin (RR)
+        4. Priority Based
+
+Author: 
+    Masood Ahmed
+
 
 '''
 
