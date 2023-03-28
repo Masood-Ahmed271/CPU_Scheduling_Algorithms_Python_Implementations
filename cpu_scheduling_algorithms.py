@@ -98,8 +98,8 @@ class CPUScheduler:
             w_sum+=W_T[i]
 
         # printing the average waiting and turn around times
-        print("\nAverage waiting time: {:.2f}".format(t_sum/len(sorted_processes)))
-        print("Average turn around time: {:.2f}".format(w_sum/len(sorted_processes)))
+        print("\nAverage turn around time: {:.2f}".format(t_sum/len(sorted_processes)))
+        print("Average waiting time: {:.2f}".format(w_sum/len(sorted_processes)))
 
 
     # non-premptive
@@ -186,8 +186,8 @@ class CPUScheduler:
             w_sum+=W_T[i]
 
         # printing the average waiting and turn around times
-        print("\nAverage waiting time: {:.2f}".format(t_sum/n))
-        print("Average turn around time: {:.2f}".format(w_sum/n))
+        print("\nAverage turn around time: {:.2f}".format(t_sum/n))
+        print("Average waiting time: {:.2f}".format(w_sum/n))
             
 
 
@@ -289,8 +289,8 @@ class CPUScheduler:
             w_sum+=W_T[i]
 
         # printing the average waiting and turn around times
-        print("\nAverage waiting time: {:.2f}".format(t_sum/n))
-        print("Average turn around time: {:.2f}".format(w_sum/n))
+        print("\nAverage turn around time: {:.2f}".format(t_sum/n))
+        print("Average waiting time: {:.2f}".format(w_sum/n))
 
 
 
@@ -383,7 +383,7 @@ class CPUScheduler:
             w_sum+=W_T[i]
 
         # printing the average waiting and turn around times
-        print("\nAverage waiting time: {:.2f}".format(t_sum/n))
-        print("Average turn around time: {:.2f}".format(w_sum/n))
+        print("\nAverage turn around time: {:.2f}".format(t_sum/n))
+        print("Average waiting time: {:.2f}".format(w_sum/n))
         
 
